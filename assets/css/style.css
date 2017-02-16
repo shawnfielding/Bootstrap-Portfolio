@@ -1,0 +1,109 @@
+#menu.navbar-default .navbar-brand {
+    color: white;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    background-color: #4aaaa5;
+    font-weight: bold;
+    font-size: 2em;#4aaaa5
+    height:100px;
+}
+#menu.navbar-default {
+    font-size: 14px;
+    background-color: white;
+    border-width: 1px;
+    border-radius: 4px;
+    height: 100px;
+    margin-left: 0 50px;
+}
+#menu.navbar-default .navbar-nav>li>a {
+    color: rgba(119, 119, 119, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+#menu.navbar-default .navbar-nav>li>a:hover,
+#menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(51, 51, 51, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#menu.navbar-default .navbar-nav>.active>a,
+#menu.navbar-default .navbar-nav>.active>a:hover,
+#menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(85, 85, 85, 1);
+    background-color: rgba(231, 231, 231, 1);
+}
+#menu.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+#menu.navbar-default .navbar-toggle:hover,
+#menu.navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+#menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+#menu.navbar-default .navbar-toggle:hover .icon-bar,
+#menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #ffffff;
+}
+
+body {
+    background: url("../images/seamless_paper_texture.png");
+
+}
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+h1, h2, h3{
+    font-weight: bold;
+    line-height: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+h1, h2{
+    font-size: 2em;
+}
+
+h2, h3{
+    color: #4aaaa5;
+}
+
+h1, h4{
+    color: white;
+}
+
+h3{
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: larger;
+    font-weight: 100;
+}
+
+#maincontent {
+    background-color: white;
+    border: 2px solid lightgray;
+    display: block;
+    margin-top:25px;
+    padding-bottom: 25px;
+}
+
+#maincontentheader {
+    white-space: nowrap;
+    margin: 0 auto ;
+    border-bottom: 3px solid lightgray;
+}
+#profile {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+#maincontentcontent {
+    margin: 0 auto;
+
+}
